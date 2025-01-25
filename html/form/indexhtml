@@ -1,0 +1,25 @@
+<!-- Example of inline and block level elements -->
+<!DOCTYPE html>
+<html>
+  <link rel="icon" type="image/x-icon" href="images/favicon" />
+  <body>
+    <form
+      action="/action"
+      method="post"
+      autocomplete="off"
+      novalidate="true"
+      target="_blank"
+    >
+      <label for="username">Username</label>
+      <input id="username" type="text" placeholder="name" name="Username" />
+      <label for="password">Username</label>
+      <input
+        id="password"
+        type="password"
+        placeholder="password"
+        name="password"
+      />
+    </form>
+    <button type="submit">Submit</button>
+  </body>
+</html>

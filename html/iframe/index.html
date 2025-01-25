@@ -1,0 +1,22 @@
+<!-- Example of inline and block level elements -->
+<!DOCTYPE html>
+<html>
+  <link rel="icon" type="image/x-icon" href="images/favicon" />
+  <body>
+    <iframe
+      id="iframe"
+      allowfullscreen
+      style="border: none"
+      src="https://google.com"
+      title="test"
+      height="500"
+      referrerpolicy="no-referrer"
+    ></iframe>
+    <button id="fill-screen">Full screen</button>
+  </body>
+  <script>
+    document.getElementById("fill-screen").addEventListener("click", () => {
+      document.getElementById("iframe").requestFullscreen();
+    });
+  </script>
+</html>
